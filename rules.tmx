@@ -117,7 +117,7 @@
  <tileset firstgid="1557" name="collision" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="LPC Base Assets/tiles/collision.png" width="32" height="32"/>
  </tileset>
- <layer name="regions" width="32" height="24">
+ <layer name="regions" width="32" height="24" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,1557,0,1557,0,1557,0,1557,0,1557,0,1557,0,1557,0,1557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -145,7 +145,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="input_terrain" width="32" height="24">
+ <layer name="input_terrain" width="32" height="24" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,881,0,882,0,883,0,876,0,741,0,742,0,743,0,736,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -173,7 +173,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="output_outGrass" width="32" height="24">
+ <layer name="output_outGrass" width="32" height="24" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,881,0,882,0,883,0,876,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -201,7 +201,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="output_outDirt" width="32" height="24">
+ <layer name="output_outDirt" width="32" height="24" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,741,0,742,0,743,0,736,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
