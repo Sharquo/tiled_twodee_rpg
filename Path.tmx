@@ -133,7 +133,7 @@
  <tileset firstgid="1557" name="collision" tilewidth="32" tileheight="32" tilecount="1" columns="1">
   <image source="LPC Base Assets/tiles/collision.png" width="32" height="32"/>
  </tileset>
- <layer name="grass" width="32" height="24">
+ <layer name="grass" width="32" height="24" visible="0">
   <properties>
    <property name="unity:layer" value="Grass"/>
   </properties>
@@ -164,7 +164,10 @@
 876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,876,881,883,883,882,876,876,876,876
 </data>
  </layer>
- <layer name="path" width="32" height="24">
+ <layer name="dirt" width="32" height="24" visible="0">
+  <properties>
+   <property name="unity:layer" value="Dirt"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -192,7 +195,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="decals" width="32" height="24">
+ <layer name="decals" width="32" height="24" visible="0">
+  <properties>
+   <property name="unity:layer" value="Decals"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -220,7 +226,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="miscObjects" width="32" height="24">
+ <layer name="doodads" width="32" height="24" visible="0">
+  <properties>
+   <property name="unity:layer" value="Doodads"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -248,7 +257,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="treeTrunk" width="32" height="24">
+ <layer name="treeTrunk" width="32" height="24" visible="0">
+  <properties>
+   <property name="unity:layer" value="treeTrunk"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1442,1443,1444,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -276,7 +288,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="treeTops" width="32" height="24">
+ <layer name="treeTops" width="32" height="24" visible="0">
+  <properties>
+   <property name="unity:layer" value="treeTops"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1397,1398,1399,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1403,1404,1405,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -304,7 +319,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="outCollision" width="32" height="24" opacity="0.44">
+ <layer name="outCollision" width="32" height="24" visible="0" opacity="0.44">
+  <properties>
+   <property name="unity:layer" value="Collision"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1557,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
